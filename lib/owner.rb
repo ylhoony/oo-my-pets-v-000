@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-
+  attr_accessor :name
   attr_reader :species
 
   @@all = []
@@ -26,7 +26,5 @@ class Owner
     "I am a #{self.species}"
   end
 
-  def name
-    
-  end
+
 end
