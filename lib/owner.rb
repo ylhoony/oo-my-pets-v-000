@@ -31,7 +31,11 @@ class Owner
   end
 
   def buy_fish
+    
+  end
 
+  def list_pets
+    
   end
 
 end
