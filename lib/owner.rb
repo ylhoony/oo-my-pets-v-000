@@ -8,7 +8,7 @@ class Owner
   def initialize(species)
     @species = species
     @@all << self
-    @pets
+    @pets = Hash.new
   end
 
   def self.all
