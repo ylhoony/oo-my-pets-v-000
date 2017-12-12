@@ -27,10 +27,10 @@ class Owner
   end
 
   def pets
-    # self.pets, fishes, dogs, cats = Hash.new
-    # self.pets.fishes, self.pets.dogs, self.pets.cats = []
-    # self.pets
-    self.pets = {:fishes => [], :dogs => [], :cats => []}
+    self.pets, fishes, dogs, cats = Hash.new
+    self.pets.fishes, self.pets.dogs, self.pets.cats = []
+    self.pets
+    # self.pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
 end
