@@ -30,7 +30,5 @@ class Owner
     # fishes, dogs, cats = Hash.new
     # fishes, dogs, cats = []
   # end
-  
-end
 
 end
