@@ -3,24 +3,24 @@ class Owner
   attr_accessor :name, :pets
   attr_reader :species
 
-  @@all = []
+  @@owners = []
 
   def initialize(species)
     @species = species
-    @@all << self
+    @@owners << self
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def self.all
-    @@all
+    @@owners
   end
 
   def self.reset_all
-    @@all.clear
+    @@owners.clear
   end
 
   def self.count
-    @@all.count
+    @@owners.count
   end
 
   def say_species
@@ -28,20 +28,18 @@ class Owner
   end
 
   def buy_fish(fish_name)
-    fish = Fish.new(fish_name)
-    fish.owner = self
-    self.pets[:fishes] << fish
+    self.pets[:fishes] << Fish.new(fish_name)
+    # fish.owner = self
   end
 
   def buy_dog(dog_name)
-    dog = Dog.new(dog_name)
-    dog.owner = self
-    self.pets[:dogs] << dog
+    self.pets[:dogs] << Dog.new(dog_name)
+    # dog.owner = self
   end
 
   def buy_cat(cat_name)
     self.pets[:cats] << Cat.new(cat_name)
-    cat.owner = self
+    # cat.owner = self
   end
 
   def walk_dogs
