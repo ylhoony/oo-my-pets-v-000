@@ -27,9 +27,11 @@ class Owner
   end
 
   def pets
-    fishes, dogs, cats = Hash.new
-    fishes, dogs, cats = []
-    self.pets = {fishes, dogs, cats}
+    self.pets, fishes, dogs, cats = Hash.new
+    self.pets.fishes = []
+    self.pets.dogs = []
+    self.pets.cats = []
+    self.pets
   end
 
 end
