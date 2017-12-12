@@ -23,6 +23,6 @@ class Owner
   end
 
   def say_species
-    puts "I am #{self.species}"
+    "I am #{self.species}"
   end
 end
