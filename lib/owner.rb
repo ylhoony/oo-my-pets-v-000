@@ -30,8 +30,8 @@ class Owner
     self.pets = Hash[:fishes => [], :dogs => [], :cats => []]
   end
 
-  def buy_fish
-    
+  def buy_fish(fish)
+
   end
 
   def list_pets
