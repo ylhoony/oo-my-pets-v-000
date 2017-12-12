@@ -29,8 +29,6 @@ class Owner
   def pets
     # fishes, dogs, cats = Hash.new
     # fishes, dogs, cats = []
-
-    
   end
   
 end
