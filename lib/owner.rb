@@ -27,10 +27,10 @@ class Owner
     "I am a #{self.species}."
   end
 
-  def pets
-    self.pets = Hash
-    [:fishes => [], :dogs => [], :cats => []]
-  end
+  # def pets
+  #   self.pets = Hash
+  #   [:fishes => [], :dogs => [], :cats => []]
+  # end
 
   def buy_fish
 
