@@ -26,10 +26,10 @@ class Owner
     "I am a #{self.species}."
   end
 
-  def pets
+  # def pets
     # fishes, dogs, cats = Hash.new
     # fishes, dogs, cats = []
-  end
+  # end
   
 end
 
