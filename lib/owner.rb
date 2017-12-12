@@ -27,6 +27,9 @@ class Owner
   end
 
   def pets
+    fishes, dogs, cats = Hash.new
+    fishes
+
     
   end
   
