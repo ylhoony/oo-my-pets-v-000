@@ -28,7 +28,7 @@ class Owner
 
   def pets
     self.pets = Hash.new
-    self.pets.[:fishes], self.pets.[:dogs], self.pets.[:cats] = []
+    self.pets[:fishes], self.pets[:dogs], self.pets[:cats] = []
     self.pets
     # self.pets = {:fishes => [], :dogs => [], :cats => []}
   end
