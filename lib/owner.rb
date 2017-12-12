@@ -40,6 +40,10 @@ class Owner
 
   end
 
+  def buy_cat(fish_name)
+
+  end
+
   def list_pets
 
   end
