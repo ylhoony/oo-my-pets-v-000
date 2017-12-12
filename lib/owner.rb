@@ -8,6 +8,7 @@ class Owner
   def initialize(species)
     @species = species
     @@all << self
+    @pets
   end
 
   def self.all
@@ -27,7 +28,8 @@ class Owner
   end
 
   def pets
-    self.pets = Hash[:fishes => [], :dogs => [], :cats => []]
+    self.pets = Hash
+    [:fishes => [], :dogs => [], :cats => []]
   end
 
   def buy_fish
