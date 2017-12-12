@@ -36,6 +36,10 @@ class Owner
 
   end
 
+  def buy_dog(dog_name)
+
+  end
+
   def list_pets
 
   end
